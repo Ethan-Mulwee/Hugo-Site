@@ -36,7 +36,7 @@ languages:
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
 params:
-  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "My website full of wonderful terrible things"
   author: Ethan Mulwee
   # author: ["Me", "You"] # multiple authors

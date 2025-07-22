@@ -29,6 +29,11 @@ int main() {
 }
 ```
 
+$$
+x+y-z=3
+$$
+
+
 ---
 
 {{< sketchfab id="ti-84-calculator-66585409eb6b4104809b34cc219ae142" width="800" height="600">}}
