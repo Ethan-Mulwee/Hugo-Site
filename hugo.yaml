@@ -106,22 +106,22 @@ params:
   
   assets:
     disableHLJS: true
-    favicon: "/assets/favicon.ico"
-    favicon16x16: "/assets/favicon16x16.png"
-    favicon32x32: "/assets/favicon32x32.png"
+    # favicon: "/assets/favicon.ico"
+    # favicon16x16: "/assets/favicon16x16.png"
+    # favicon32x32: "/assets/favicon32x32.png"
 
 
-  markup:
+markup:
   goldmark:
     renderer:
       unsafe: true
-  highlight:
-    noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+highlight:
+  noClasses: false
+  # anchorLineNos: true
+  # codeFences: true
+  # guessSyntax: true
+  # lineNos: true
+  # style: monokai
 
 # privacy:
 #   vimeo:
