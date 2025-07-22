@@ -53,7 +53,7 @@ int main() {
 
 ### Embedded Content
 {{< youtube 5GtWIwTeS-4 >}}
-<img src="/images/maxwell.gif" alt="alt" title="This is the title attribute" width="800" height="200">
+<img src="/images/maxwell.gif" alt="alt" title="Maxwell" width="800" height="200">
 {{< sketchfab id="ti-84-calculator-66585409eb6b4104809b34cc219ae142" width="800" height="600">}}
 
 
