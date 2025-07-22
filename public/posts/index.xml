@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Ethan Mulwee</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Ethan Mulwee</description>
+    <title>Posts on Ethan Mulwee</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Ethan Mulwee</description>
     <generator>Hugo -- 0.148.1</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 21 Jul 2025 18:30:24 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>http://localhost:1313/posts/hello-world/</link>
       <pubDate>Mon, 21 Jul 2025 18:30:24 -0400</pubDate>
       <guid>http://localhost:1313/posts/hello-world/</guid>
-      <description></description>
+      <description>&lt;h1 id=&#34;testing123&#34;&gt;Testing123&lt;/h1&gt;</description>
     </item>
   </channel>
 </rss>
