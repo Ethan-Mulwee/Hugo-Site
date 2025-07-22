@@ -37,7 +37,7 @@ languages:
 
 params:
   # env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  description: "My website full of wonderful terrible things"
   author: Ethan Mulwee
   # author: ["Me", "You"] # multiple authors
 
@@ -55,7 +55,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  # images: ["images/papermod-cover.png"]
+  images: ["images/Overlook-Banner.png"]
 
   profileMode:
     enabled: false
