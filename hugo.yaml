@@ -32,8 +32,8 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+        # - name: WiKi
+        #   url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -55,7 +55,7 @@ params:
   ShowPageNums: true
   ShowToc: true
   # comments: false
-  images: ["images/Overlook-Banner.png"]
+  images: ["/images/Overlook-Banner.png"]
 
   profileMode:
     enabled: false
@@ -91,3 +91,43 @@ params:
     # - name: KoFi
     #   title: Buy me a Ko-Fi :)
     #   url: "https://ko-fi.com/adityatelange"
+  
+  assets:
+    disableHLJS: true
+    favicon: "/assets/favicon.ico"
+
+  markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+
+# privacy:
+#   vimeo:
+#     disabled: false
+#     simple: true
+
+#   twitter:
+#     disabled: false
+#     enableDNT: true
+#     simple: true
+
+#   instagram:
+#     disabled: false
+#     simple: true
+
+#   youtube:
+#     disabled: false
+#     privacyEnhanced: true
+
+services:
+  instagram:
+    disableInlineCSS: true
+  x:
+    disableInlineCSS: true
