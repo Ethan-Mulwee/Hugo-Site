@@ -3,6 +3,11 @@ date: '2025-07-21T18:30:24-04:00'
 draft: false
 title: 'Hello World'
 tags: ["Test-Tag2", "Test-Tag1"]
+description: "test description :)"
+cover:
+    image: "images/blender_user.png"
+    caption: "Sociopolitical commentary"
+ShowToc: true
 ---
 programmed to work and not to feel
 
@@ -33,8 +38,8 @@ $$
 x+y-z=3
 $$
 
-
 ---
+# A Header of Sorts
 
 {{< sketchfab id="ti-84-calculator-66585409eb6b4104809b34cc219ae142" width="800" height="600">}}
 
