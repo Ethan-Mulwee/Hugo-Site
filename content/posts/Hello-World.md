@@ -35,7 +35,6 @@ int main() {
     std::cout << "hello world \n";    
 }
 ```
-{{<tex>}}
 
 
 $ x+y-z=3 $
