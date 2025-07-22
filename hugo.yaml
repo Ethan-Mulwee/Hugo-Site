@@ -3,3 +3,91 @@ languageCode: en-us
 title: Ethan Mulwee
 
 theme: ["PaperMod"]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+        - name: WiKi
+          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+
+params:
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  # description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
+  author: Ethan Mulwee
+  # author: ["Me", "You"] # multiple authors
+
+  defaultTheme: auto
+  # disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  # images: ["images/papermod-cover.png"]
+
+  profileMode:
+    enabled: false
+    title: PaperMod
+    imageUrl: "#"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Archives
+        url: archives
+      - name: Tags
+        url: tags
+
+  homeInfoParams:
+    Title: "Technical Bits and Bobs"
+    Content: >
+      Hello welcome to my little website. Rest easy knowing it's powered by recycled souls of tormented school chromebooks.
+
+  socialIcons:
+    - name: github
+      title: My GitHub
+      url: "https://github.com/Ethan-Mulwee"
+    # - name: Discord
+    #   title: Join discord community
+    #   url: "https://discord.gg/ahpmTvhVmp"
+    - name: X
+      title: My Twitter
+      url: "https://x.com/VortxThBreadMan"
+    - name: Artstation
+      title: My Artstation/Portfolio
+      url: "https://www.artstation.com/ethanmulwee"
+    # - name: KoFi
+    #   title: Buy me a Ko-Fi :)
+    #   url: "https://ko-fi.com/adityatelange"
