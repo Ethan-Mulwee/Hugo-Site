@@ -6,6 +6,6 @@ tags: ["Test-Tag2", "Test-Tag1"]
 ---
 programmed to work and not to feel
 
-{{< youtube w7Ft2ymGmfc >}}
+{{< youtube 5GtWIwTeS-4 >}}
 
-{{< sketchfab id="ti-84-calculator-66585409eb6b4104809b34cc219ae142" >}}
+{{< sketchfab id="ti-84-calculator-66585409eb6b4104809b34cc219ae142" width="800" height="600">}}
