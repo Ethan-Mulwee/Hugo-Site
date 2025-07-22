@@ -4,10 +4,12 @@ draft: false
 title: 'Hello World'
 tags: ["Test-Tag2", "Test-Tag1"]
 description: "test description :)"
+categories: ["test-page"]
 cover:
     image: "images/blender_user.png"
     caption: "Sociopolitical commentary"
 ShowToc: true
+mathjax: true
 ---
 programmed to work and not to feel
 
@@ -33,10 +35,18 @@ int main() {
     std::cout << "hello world \n";    
 }
 ```
+{{<tex>}}
 
+
+$ x+y-z=3 $
+$$ x+y-z=3 $$
+$$ 
+x+y-z=3 
 $$
-x+y-z=3
-$$
+
+```latex
+x+y=3
+```
 
 ---
 # A Header of Sorts
