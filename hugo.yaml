@@ -89,20 +89,17 @@ params:
 
   socialIcons:
     - name: github
-      title: My GitHub
+      title: GitHub
       url: "https://github.com/Ethan-Mulwee"
-    # - name: Discord
-    #   title: Join discord community
-    #   url: "https://discord.gg/ahpmTvhVmp"
     - name: X
-      title: My Twitter
+      title: Twitter
       url: "https://x.com/VortxThBreadMan"
-    - name: Artstation
-      title: My Artstation/Portfolio
+    - name: artstation
+      title: Artstation/Portfolio
       url: "https://www.artstation.com/ethanmulwee"
-    # - name: KoFi
-    #   title: Buy me a Ko-Fi :)
-    #   url: "https://ko-fi.com/adityatelange"
+    - name: youtube
+      title: Youtube
+      url: "https://www.youtube.com/@VortexTheBreadMan/videos"
   
   assets:
     disableHLJS: true
