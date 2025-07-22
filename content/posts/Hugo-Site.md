@@ -4,6 +4,8 @@ draft: false
 title: 'Hello World'
 mathjax: true
 showtoc: false
+cover:
+    image: "images/Overlook-Banner.png"
 ---
 Behold a website. I want to use this as a place to host projects, documentation, findings, tutorials, whatever. It's built using [HUGO](https://gohugo.io/) with the theme [PaperMod](https://github.com/adityatelange/hugo-PaperMod).
 
@@ -51,8 +53,9 @@ int main() {
 
 ### Embedded Content
 {{< youtube 5GtWIwTeS-4 >}}
-![](/images/maxwell.gif#center)
+<img src="/images/maxwell.gif" alt="alt" title="This is the title attribute" width="800" height="200">
 {{< sketchfab id="ti-84-calculator-66585409eb6b4104809b34cc219ae142" width="800" height="600">}}
+
 
 ### Raylib Game
 [tetris](/tetris.html), I'm working figuring out how to better embed these so it sizes and centers more properly. As well as on screen buttons for mobile devices?
