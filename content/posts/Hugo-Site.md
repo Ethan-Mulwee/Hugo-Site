@@ -102,11 +102,13 @@ it's right
 {{% /columns %}}
 
 ---
-## GLSL Canvas
+<!-- ## GLSL Canvas
 
 <script type="text/javascript" src="https://rawgit.com/patriciogonzalezvivo/glslCanvas/master/dist/GlslCanvas.js"></script>
 
 <canvas class="glslCanvas" data-fragment-url="/shader.frag" width="710" height="500"></canvas>
+
+
 
 ```glsl
 #ifdef GL_ES
@@ -147,6 +149,6 @@ void main() {
    gl_FragColor = vec4(col, 1.0);
 }
 ```
-see https://github.com/patriciogonzalezvivo/glslCanvas
+see https://github.com/patriciogonzalezvivo/glslCanvas -->
 
 
