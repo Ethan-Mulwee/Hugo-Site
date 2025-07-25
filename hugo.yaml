@@ -110,6 +110,10 @@ params:
     # favicon16x16: "/assets/favicon16x16.png"
     # favicon32x32: "/assets/favicon32x32.png"
 
+  label:
+    text: "Ethan Mulwee"
+    icon: "images/Bread_512.png"
+    iconHeight: 35
 
 markup:
   goldmark:
