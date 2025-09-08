@@ -84,7 +84,7 @@ Goo Engine provides exactly the node needed to make this possible as a easy to u
 {{% columns ratio="3:1" %}}
 ### My Goo Engine Shader
 
-This large group node is the one I use for shading with Goo Engine. It contains many settings which are porbably best explained simply by messing around with them one by one and lookign at the debug outputs. It can be applied to roughly any object, material, or shader as long as they are at least somewhat suited to stylized shading off this kind.
+This large group node is the one I use for shading with Goo Engine. It contains many settings which are probably best explained simply by messing around with them one by one and looking at the debug outputs. It can be applied to roughly any object, material, or shader as long as they are at least somewhat suited to stylized shading off this kind.
 
 To use it just add it to the end of your shader node tree. Then from there tweak the settings as needed. The download includes a basic example scene.
 
