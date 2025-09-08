@@ -1,13 +1,13 @@
 :root {
-    /* --theme: #fff;
-    --entry: #cfcfff; */
+    /* --theme: #fff; */
+    /* --entry: #cfcfff; */
     /* --primary: rgba(0, 0, 106, 0.88); */
     /* --secondary: rgba(0, 0, 80, 0.78);
     --tertiary: rgba(0, 0, 106, 0.16);
-    --content: rgba(0, 0, 60, 0.88);
-    --hljs-bg: #1c1d21;
-    --code-bg: #f5f5f5;
-    --border: #eee; */
+    --content: rgba(0, 0, 60, 0.88); */
+    /* --hljs-bg: #1c1d21; */
+    --code-bg: #d1d1d1;
+    --border: #858585;
 }
 
 .dark {

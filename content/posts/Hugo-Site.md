@@ -102,5 +102,24 @@ it's right
 {{% /columns %}}
 
 
+<canvas id="webglCanvas"></canvas>
+
+<script>
+  const canvas = document.getElementById('webglCanvas');
+  const gl = canvas.getContext('webgl');
+
+  if (!gl) {
+    console.error("WebGL not supported, using experimental-webgl");
+    gl = canvas.getContext('experimental-webgl');
+  }
+
+  if (!gl) {
+    alert("Your browser does not support WebGL");
+  }
+
+  // Continue with WebGL rendering
+</script>
+
+
 
 
